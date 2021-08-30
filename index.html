@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>Shahaf Meron | Portfolio</title>
+</head>
+
+<body>
+    <section>
+        <!-- navigation -->
+        <nav>
+            <a href="index.html" class="logo">SM</a>
+
+
+            <ul id="nav-ul">
+                <li><a class="hvr-underline-from-left" href="index.html">Home</a></li>
+                <li><a class="hvr-underline-from-left" href="#about">About</a></li>
+                <li><a class="hvr-underline-from-left" href="#skills">Skills</a></li>
+                <li><a class="hvr-underline-from-left" href="#projects">Projects</a></li>
+                <li><a class="hvr-underline-from-left" href="#contact">Contact</a></li>
+
+            </ul>
+
+            <div class="toggle"></div>
+        </nav>
+
+        <!-- text -->
+        <div class="text-container content">
+            <p>Hello,</p>
+            <p>I'M SHAHAF</p>
+            <p>Fullstack Web Developer</p>
+            <a class="hvr-bounce-in" href=#contact>Hire me</a>
+            <a class="hvr-back-pulse" href="Shahaf Meron Resume.pdf" download="Shahaf Meron CV">Download CV</a>
+        </div>
+
+        <!--model---------->
+        <img src="images/hero_pic.png" alt="model" class="model">
+    </section>
+
+    <!--about section-->
+    <div class="about-container stagger1" id="about">
+        <!--img-------->
+        <img src="images/aboutpic.png" alt="about-img" class="square-anim">
+        <div class="about-text">
+            <p>About Me</p>
+            <p>Web Developer</p>
+            <p>Hey Everyone! My name is Shahaf and I’m a Full Stack Web Developer located in Tel-Aviv, Israel.</p>
+            <p>I have a serious passion for UI effects, animations and creating intuitive, dynamic user experiences.
+                I’m an autodidactic developer with a high attention to detail, desire for knowledge, sharing ideas,
+                helping as much as i
+                can and most of all the ability to take an idea and make it something big.</p>
+            <p>
+                Interested in the entire web development spectrum and working on ambitious projects with positive
+                people.
+            </p>
+            <a class="hvr-sweep-to-right">Contact Me</a>
+        </div>
+    </div>
+
+
+    <!--skills-->
+    <div class="skills" id="skills">
+
+        <div class="skills-text transition2">
+            <p>Skills</p>
+            <p>Throughout this comprehensive journey to become a fullstack web developer, i cover a massive amount of tools and technologies.</p>
+        </div>
+        <div class="box-container transition2">
+            <div class="box-1 hvr-float">
+                <span>1</span>
+                <p class="heading">Web Design</p>
+                <p class="details">Creativity, Imagination, Attention to details, Typography, Responsive designs, Familiar with programs like Figma and Webflow.</p>
+            </div>
+            <div class="box-2 hvr-float">
+                <span>2</span>
+                <p class="heading">Backend Development</p>
+                <p class="details">
+                    Node.js, NPM, Experss.js, EJS, REST, API's, SQL, MongoDB, Mongoose, Authentication, Firebase.
+                </p>
+            </div>
+            <div class="box-3 hvr-float">
+                <span>3</span>
+                <p class="heading">Frontend Development</p>
+                <p class="details">React.js , Javascript, HTML, CSS , Bootstrap, DOM Manipulation, jQuery, Bash, Git, GitHub.</p>
+            </div>
+        </div>
+    </div>
+    <!--PROJECTS-->
+    <div class="projects transition3" id="projects">
+        <h2>Projects</h2>
+        <div class="project-container transition2">
+            <div class="pro-details">
+                <h3>Project Title</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores
+                    repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga
+                    numquam voluptate architecto itaque molestiae</p>
+                <a href="#" class="hvr-sweep-to-right">See Live</a>
+                <a href="#" class="hvr-forward">Source Code</a>
+            </div>
+            <img class="hvr-bob" src="images/estate-web.png" alt="project">
+        </div>
+        <div class="project-container transition2">
+            <div class="pro-details">
+                <h3>Project Title</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores
+                    repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga
+                    numquam voluptate architecto itaque molestiae</p>
+                <a href="#" class="hvr-sweep-to-right">See Live</a>
+                <a href="#" class="hvr-forward">Source Code</a>
+            </div>
+            <img class="hvr-bob" src="images/estate-web.png" alt="project">
+        </div>
+    </div>
+    <!--Contact Me-->
+    <div class="contact-me transition3" id="contact">
+        <p class="head">Contact Me</p>
+        <p>I’m intrested in all types of opportunities - if you have other request or question, don’t hesitate to send
+            me a message !</p>
+        <div class="form-container">
+            <form action="https://formspree.io/f/xqkwgjwo" method="POST">
+                <div class="form-row">
+                    <div class="input-data">
+                        <input class="fname" type="text" name="name" required>
+                        <div class="underline"></div>
+                        <label>First Name</label>
+                    </div>
+                    <div class="input-data">
+                        <input class="lname" type="text" name="name" required>
+                        <div class="underline"></div>
+
+                        <label>Last Name</label>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="input-data">
+                        <input class="email" type="text" name="email" required>
+                        <div class="underline"></div>
+
+                        <label>Email</label>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="input-data">
+                        <input class="subject" type="text" name="Subject" required>
+                        <div class="underline"></div>
+
+                        <label>Subject</label>
+                    </div>
+
+                </div>
+                <div class="form-row ">
+                    <div class="input-data textarea">
+                        <textarea class="msg" cols="30" rows="10" name="msg" required></textarea>
+                        <div class="underline"></div>
+
+                        <label>Write your message</label>
+                    </div>
+                </div>
+                <div class="submit-btn">
+                    <div class="btn-container">
+                        <button class="hvr-radial-out" id="submit" type="submit">Send Message</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
+
+
+    </div>
+    <!-- <button>Send Message!</button> -->
+    </div>
+
+
+    <!--footer-->
+    <footer class="transition3">
+        <p>SM</p>
+        <p>wake up with <strong>determination.</strong><br>go to bed with <strong>satisfaction.</strong></p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+        </div>
+        <p class="copyright">@Shahaf Meron</p>
+    </footer>
+    <div class="a-social-b">
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+    </div>
+
+    <script type="text/javascript" src="js/JQuery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"
+        integrity="sha512-UxP+UhJaGRWuMG2YC6LPWYpFQnsSgnor0VUF3BHdD83PS/pOpN+FYbZmrYN+ISX8jnvgVUciqP/fILOXDjZSwg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"
+        integrity="sha512-DlTk2PLUinhBupE89kHOJTt11QqbRMQVlbb26XVDvp4D1kt0fRvQJslvZnTelRJHq6yK0tIPCR7cul8+9Blz0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/toggleMenu.js"></script>
+    <script src="js/scrollTrigger.js"></script>
+</body>
+
+</html>
