@@ -855,8 +855,8 @@ footer {
   }
   .text-container {
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    //left: 40%;
+    //transform: translate(-40%, -50%);
     width: 80%;
     p:nth-child(2) {
       line-height: 60px;
@@ -932,12 +932,12 @@ footer {
   .model{
     display: none;
   }
-  .text-container {
-    top: 46%;
-    button {
-      margin: 5px;
-    }
-  }
+  // .text-container {
+  //   top: 46%;
+  //   button {
+  //     margin: 5px;
+  //   }
+  // }
   .about-container {
     width: 90%;
     border-radius: 10px;
