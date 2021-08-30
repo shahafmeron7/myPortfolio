@@ -312,9 +312,8 @@ nav {
 }
 
 .model {
-  height: 500px; //was 560
+  height:500px; //was 560
   position: absolute;
-  // margin-left: 10%;
   bottom: 25%;
   left: 60%;
   transform: translate(-60%, -25%);
@@ -915,8 +914,12 @@ footer {
     }
   }
 }
-
-@media only screen and (max-width: 1400px) {
+@media only screen and (min-width: 1500px) {
+  .model {
+    height: 560px;
+  }
+}
+@media only screen and (min-width: 1001px) {
   .model {
     height: 460px;
     bottom: 25%;
@@ -932,12 +935,7 @@ footer {
   .model{
     display: none;
   }
-  // .text-container {
-  //   top: 46%;
-  //   button {
-  //     margin: 5px;
-  //   }
-  // }
+ 
   .about-container {
     width: 90%;
     border-radius: 10px;
