@@ -361,13 +361,16 @@ nav .logo {
   color: #373636;
 }
 
-.model {
-  height: 560px;
+.hero-container {
+  background-color: #3498db;
+  width: 560px;
   position: absolute;
-  bottom: 25%;
-  left: 60%;
-  -webkit-transform: translate(-60%, -25%);
-          transform: translate(-60%, -25%);
+  left: 50%;
+  top: 25%;
+}
+
+.hero-container .model {
+  height: 450px;
 }
 
 .about-container {
@@ -1203,28 +1206,6 @@ footer .copyright {
   }
   footer .copyright {
     margin: 0;
-  }
-}
-
-@media only screen and (min-width: 1001px) and (max-width: 1200px) {
-  .model {
-    height: 400px;
-    position: absolute;
-    bottom: 25%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -25%);
-            transform: translate(-50%, -25%);
-  }
-}
-
-@media only screen and (min-width: 1201px) and (max-width: 1700px) {
-  .model {
-    height: 500px;
-    position: absolute;
-    bottom: 25%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -25%);
-            transform: translate(-50%, -25%);
   }
 }
 

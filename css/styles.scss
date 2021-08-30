@@ -314,12 +314,24 @@ nav {
   color: #373636;
 }
 
-.model {
-  height: 560px; //was 560
+// .model {
+//   height: 560px; //was 560
+//   position: absolute;
+//   bottom: 25%;
+//   left: 60%;
+//   transform: translate(-60%, -25%);
+// }
+
+.hero-container{
+  background-color: #3498db;
+  width: 560px;
   position: absolute;
-  bottom: 25%;
-  left: 60%;
-  transform: translate(-60%, -25%);
+  left: 50%;
+  top: 25%;
+  .model{
+    height: 450px;
+  }
+
 }
 .about-container {
   width: 80%;
@@ -1012,22 +1024,22 @@ footer {
 }
 
 @media only screen and (min-width: 1001px) and (max-width:1200px) {
-  .model {
-    height: 400px; //was 560
-    position: absolute;
-    bottom: 25%;
-    left: 50%;
-    transform: translate(-50%, -25%);
-  }
+  // .model {
+  //   height: 400px; //was 560
+  //   position: absolute;
+  //   bottom: 25%;
+  //   left: 50%;
+  //   transform: translate(-50%, -25%);
+  // }
 }
 @media only screen and (min-width: 1201px) and (max-width:1700px) {
-  .model {
-    height: 500px; //was 560
-    position: absolute;
-    bottom: 25%;
-    left: 50%;
-    transform: translate(-50%, -25%);
-  }
+  // .model {
+  //   height: 500px; //was 560
+  //   position: absolute;
+  //   bottom: 25%;
+  //   left: 50%;
+  //   transform: translate(-50%, -25%);
+  // }
 }
 @media only screen and (min-width: 1500px) {
   .skills {
