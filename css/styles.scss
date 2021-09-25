@@ -505,6 +505,7 @@ nav {
       height: auto;
       max-width: 500px;
       max-height: 500px;
+      box-shadow: 0 1.5rem 4rem rgba(#000, 0.1);
     }
     @-webkit-keyframes hvr-bob {
       0% {
@@ -552,6 +553,7 @@ nav {
       -webkit-transform: perspective(1px) translateZ(0);
       transform: perspective(1px) translateZ(0);
       box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+
     }
     .hvr-bob:hover,
     .hvr-bob:focus,
